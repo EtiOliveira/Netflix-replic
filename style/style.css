@@ -106,8 +106,8 @@ header .menu{
     margin-right: 10px;
 }
 
-box-film{
-    height: 100%;
-    width: 100%;
+.box-film{
+    height: 50%;
+    width:50%;
     display: block;
 }
