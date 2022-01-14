@@ -1,0 +1,100 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;    
+}
+
+/*header*/
+header.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+    
+}
+#netflix{
+    color: var(--vermelho);
+    font-family: "arial black";
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-right: 25px;
+  }
+
+
+.container ul a, ul{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+.container ul a:hover {
+    color: #fff;
+}
+#menu ul{
+    display: flex;
+  
+}
+#menu ul li{
+    list-style: none;
+}
+
+
+/*filme principal*/
+
+.principal{
+    font-size: 16px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0.20)100%), url(imagens/img1.png);
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.titulo{
+    font-size: 40px;
+}
+
+.botoes button{
+    background-color: rgba(0, 0, 0,.5);
+    border: none;
+    color: white;
+
+    padding: 15px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;   
+    cursor: pointer; 
+    transition: .3s all;    
+}
+
+.botoes button:hover{
+    background-color: white;
+    color: black;
+}
+.botoes button i {
+    margin-right: 10px;
+}
