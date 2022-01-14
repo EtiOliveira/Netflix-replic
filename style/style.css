@@ -16,6 +16,12 @@ body{
 }
 
 /*header*/
+
+.container, .botoes{
+    margin-left: 30px;
+}
+
+
 header.container{
     display: flex;
     align-items: center;
@@ -60,7 +66,7 @@ header .menu{
 .principal{
     font-size: 16px;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0.20)100%), url(imagens/img1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0.20)100%), url(../imagens/img1.png);
     height: 400px;
     background-size: cover;
 
@@ -72,6 +78,7 @@ header .menu{
 .principal .descricao{
     margin-bottom: 50px;
     margin-top: 15px;
+    width: 70%;
 }
 .titulo{
     font-size: 40px;
@@ -97,4 +104,10 @@ header .menu{
 }
 .botoes button i {
     margin-right: 10px;
+}
+
+box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
